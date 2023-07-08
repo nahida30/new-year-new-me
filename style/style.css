@@ -178,6 +178,11 @@ li::before{
     background-color: #FFF;
     color: #F15B22;
 }
+.mindset-btn:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #FFF;
+}
 
 .mindset-container{
     padding: 79px 617px 277px 64px;
@@ -259,4 +264,10 @@ li::before{
     font-size: 18px;
     color: #F15B22;
     border-radius: 8px;
+}
+
+.subscribe-btn:hover{
+    border: 1px solid #fdfdfd ;
+    background-color: transparent;
+    color: white;
 }
