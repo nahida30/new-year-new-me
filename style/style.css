@@ -63,20 +63,20 @@
 /* main section starts */
 .year{
     width: 80%;
-    height: 80vh;
+    height: 100vh;
     /* background-color: aqua; */
     margin: auto;
     display: flex;
     justify-content: space-around;
 }
 .year img{
-    width: 400px;
+    width: 50%;
     margin-top: 60px;
     margin-left: 100px;
 }
 
 .year-container{
-    padding: 200px 160px 50px 100px;
+    padding: 200px 160px 50px 80px;
 }
 li{
     list-style: none;
@@ -116,7 +116,8 @@ li::before{
 /* plan section starts */
 .plan-heading{
     margin-top: 100px;
-    margin-left: 700px;
+    /* margin-left: 45%; */
+    text-align: center;
     font-size: 40px;
 }
 
@@ -127,7 +128,7 @@ li::before{
     text-align: center;
     padding-left: 50px;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .plan-head{
@@ -173,6 +174,7 @@ li::before{
     font-weight: 700;
     line-height: normal;
     padding-bottom: 10px;
+    
 }
 .mindset-btn{
     background-color: #FFF;
