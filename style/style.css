@@ -157,7 +157,10 @@ li::before{
 .mindset{
     width: 80%;
     height: 40vh;
-    margin: auto;
+    /* margin: auto; */
+    margin-left:150px;
+    align-items: center;
+  
     border-radius: 8px;
     /* background-color: #16D887; */
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%) , url("../images/watch.png");
